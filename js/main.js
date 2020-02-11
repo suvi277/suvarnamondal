@@ -349,17 +349,19 @@
                 $.ajax({
     
                     type: "POST",
-                    url: "inc/sendEmail.php",
-                    data: $(form).serialize(),
+                    url: "https://formspree.io/mzbryrpo",
+                    data: {
+                        name: $('#contactName').val(),
+                        email: $('#contactEmail').val(),
+                        message: $('#contactMessage').val()
+                    },
+                    dataType: "json",
                     beforeSend: function() { 
-    
                         sLoader.slideDown("slow");
-    
                     },
                     success: function(msg) {
-    
                         // Message was sent
-                        if (msg == 'OK') {
+                        if (msg.ok) {
                             sLoader.slideUp("slow"); 
                             $('.message-warning').fadeOut();
                             $('#contactForm').fadeOut();
