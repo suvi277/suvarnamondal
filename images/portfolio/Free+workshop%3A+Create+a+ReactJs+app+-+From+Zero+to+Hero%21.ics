@@ -1,0 +1,50 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Meetup//RemoteApi//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-ORIGINAL-URL:https://www.meetup.com/kodiri/events/268446090/ical/Free+w
+ orkshop:+Create+a+ReactJs+app+-+From+Zero+to+Hero!.ics
+X-WR-CALNAME:Events - Free workshop%3A Create a ReactJs app - From Zero t
+ o Hero%21.ics
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VTIMEZONE
+TZID:Europe/London
+TZURL:http://tzurl.org/zoneinfo-outlook/Europe/London
+X-LIC-LOCATION:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20200210T201047Z
+DTSTART;TZID=Europe/London:20200219T180000
+DTEND;TZID=Europe/London:20200219T193000
+STATUS:CONFIRMED
+SUMMARY:Free workshop: Create a ReactJs app - From Zero to Hero!
+DESCRIPTION:Kodiri.com - All you need is CODE!\nWednesday\, February 19 a
+ t 6:00 PM\n\nAgenda:18:00h: Arrival\, refreshments\, and seating18:20h: 
+ Create a ReactJS app19:05h: ReactJS training to reviewing the learnt tec
+ hniques19:20h: Networ...\n\nhttps://www.meetup.com/kodiri/events/2684460
+ 90/
+CLASS:PUBLIC
+CREATED:20200204T093313Z
+GEO:51.52;-0.10
+LOCATION:Many Hands London (100 Clements Rd (BLOCK F - First floor\, Stud
+ io 26)\, SE16 4DG\, London\, United Kingdom SE16 4DG)
+URL:https://www.meetup.com/kodiri/events/268446090/
+LAST-MODIFIED:20200204T093313Z
+UID:event_268446090@meetup.com
+END:VEVENT
+END:VCALENDAR

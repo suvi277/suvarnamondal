@@ -1,196 +1,515 @@
-<!DOCTYPE HTML>
-<!--
-	Forty by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Forty by HTML5 UP</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
-		<!-- Wrapper -->
-			<div id="wrapper">
-				<!-- Menu -->
-					<nav id="menu">
-						<ul class="links">
-							<li><a href="index.html">Home</a></li>
-							<li><a href="landing.html">Landing</a></li>
-							<li><a href="generic.html">Generic</a></li>
-							<li><a href="elements.html">Elements</a></li>
-						</ul>
-					</nav>
+<!DOCTYPE html>
+<!--[if lt IE 9 ]><html class="no-js oldie" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
 
-				<!-- Banner -->
-					<section id="banner" class="major">
-						<div class="inner">
-							<header class="major">
-								<h1>Hi, my name is Suvarna Mondal</h1>
-							</header>
-							<div class="content">
-								<p>Frontend Developer over 7 years of experience</p>
-							</div>
-						</div>
-					</section>
+<head>
 
-				<!-- Main -->
-					<div id="main">
-						<!-- One -->
-							<section id="one" class="tiles">
-								<article>
-									<span class="image">
-										<img src="images/pic01.jpg" alt="" />
-									</span>
-									<header class="major">
-										<h3><a href="landing.html" class="link">Aliquam</a></h3>
-										<p>Ipsum dolor sit amet</p>
-									</header>
-								</article>
-								<article>
-									<span class="image">
-										<img src="images/pic02.jpg" alt="" />
-									</span>
-									<header class="major">
-										<h3><a href="landing.html" class="link">Tempus</a></h3>
-										<p>feugiat amet tempus</p>
-									</header>
-								</article>
-								<article>
-									<span class="image">
-										<img src="images/pic03.jpg" alt="" />
-									</span>
-									<header class="major">
-										<h3><a href="landing.html" class="link">Magna</a></h3>
-										<p>Lorem etiam nullam</p>
-									</header>
-								</article>
-								<article>
-									<span class="image">
-										<img src="images/pic04.jpg" alt="" />
-									</span>
-									<header class="major">
-										<h3><a href="landing.html" class="link">Ipsum</a></h3>
-										<p>Nisl sed aliquam</p>
-									</header>
-								</article>
-								<article>
-									<span class="image">
-										<img src="images/pic05.jpg" alt="" />
-									</span>
-									<header class="major">
-										<h3><a href="landing.html" class="link">Consequat</a></h3>
-										<p>Ipsum dolor sit amet</p>
-									</header>
-								</article>
-								<article>
-									<span class="image">
-										<img src="images/pic06.jpg" alt="" />
-									</span>
-									<header class="major">
-										<h3><a href="landing.html" class="link">Etiam</a></h3>
-										<p>Feugiat amet tempus</p>
-									</header>
-								</article>
-							</section>
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Suvarna Mondal Portfolio</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-						<!-- Two -->
-							<section id="two">
-								<div class="inner">
-									<header class="major">
-										<h2>Massa libero</h2>
-									</header>
-									<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
-									<ul class="actions">
-										<li><a href="landing.html" class="button next">Get Started</a></li>
-									</ul>
-								</div>
-							</section>
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+</head>
+
+<body id="top">
+
+    <!-- header
+    ================================================== -->
+    <header class="s-header">
+
+        <div class="header-logo">
+            <a class="site-logo" href="index.html"><img src="images/logo.png" alt="Homepage"></a>
+        </div>
+
+        <nav class="header-nav-wrap">
+            <ul class="header-nav">
+                <li class="current"><a class="smoothscroll"  href="#home" title="home">Home</a></li>
+                <li><a class="smoothscroll"  href="#about" title="about">About</a></li>
+                <li><a class="smoothscroll"  href="#works" title="works">Works</a></li>
+                <li><a class="smoothscroll"  href="#blog" title="blog">Blog</a></li>
+                <li><a class="smoothscroll"  href="#contact" title="contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <a class="header-menu-toggle" href="#0"><span>Menu</span></a>
+
+    </header> <!-- end s-header -->
+
+
+   <!-- home
+   ================================================== -->
+   <section id="home" class="s-home page-hero target-section" data-parallax="scroll" data-image-src="images/hero-bg.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+
+        <div class="overlay"></div>
+        <div class="shadow-overlay"></div>
+
+        <div class="home-content">
+
+            <div class="row home-content__main">
+
+                <h3>Hello There</h3>
+
+                <h1>
+                    I am Suvarna Mondal, <br>
+					Front End Developer <br>
+					based in London!
+                </h1>
+
+                <div class="home-content__buttons">
+                    <a href="#works" class="smoothscroll btn btn--stroke">
+                        Latest Projects
+                    </a>
+                    <a href="#about" class="smoothscroll btn btn--stroke">
+                        More About Me
+                    </a>
+                </div>
+
+                <div class="home-content__scroll">
+                    <a href="#about" class="scroll-link smoothscroll">
+                        <span>Scroll Down</span>
+                    </a>
+                </div>
+
+            </div>
+
+        </div> <!-- end home-content -->
+
+        <ul class="home-social">
+            <li>
+                <a href="https://twitter.com/suvi277"><i class="im im-twitter" aria-hidden="true"></i><span>Twiiter</span></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/unquietsuvi/"><i class="im im-instagram" aria-hidden="true"></i><span>Instagram</span></a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/suvarnamondal/"><i class="im im-linkedin" aria-hidden="true"></i><span>Linkedin</span></a>
+            </li>
+            <li>
+                <a href="https://github.com/suvi277"><i class="im im-github" aria-hidden="true"></i><span>Github</span></a>
+            </li>
+        </ul> 
+        <!-- end home-social -->
+
+    </section> <!-- end s-home -->
+
+
+    <!-- about
+    ================================================== -->
+    <section id="about" class="s-about target-section">
+        
+        <div class="row narrow section-intro has-bottom-sep">
+            <div class="col-full text-center">
+                <h1>More About Me</h1>
+                <p class="lead">A self-motivated IT professional, connected with web development industry and  information technology for more than 7.5 years. Besides work, I love cooking food and hanging out with friends</p>
+            </div>
+        </div>
+
+        <div class="row about-content">
+
+            <div class="col-six tab-full left">
+                <h3>Howdy!</h3>
+                <p>The main area of my expertise is building, developing and managing websites, applications and programs. Visit my <a href="https://www.linkedin.com/in/suvarnamondal/"><span>Linkedin</span></a> Profile for more details!</p>
+                <p>
+				Whether working alone as a self-starter, or on a team in an agile environment I can easily apply my skills in the areas of: HTML, CSS and JS with an experience of SASS/LESS, Bootstrap, Grunt, Webpack, Backbone, ES6, ReactJS, Angular JS, Jasmine, Mocha etc. 	
+                </p>
+            </div>
+
+            <div class="col-six tab-full right">
+                <h3>My Top skills.</h3>
+                <ul class="skill-bars">
+                    <li>
+                    <div class="progress percent80"><span>80%</span></div>
+                    <strong>HTML5</strong>
+                    </li>
+                    <li>
+                    <div class="progress percent75"><span>75%</span></div>
+                    <strong>CSS3/SASS</strong>
+                    </li>
+                    <li>
+                    <div class="progress percent80"><span>80%</span></div>
+                    <strong>Javascript/jQuery</strong>
+                    </li>
+                    <li>
+                    <div class="progress percent95"><span>95%</span></div>
+                    <strong>Javascript/ES6</strong>
+                    </li>
+                    <li>
+                    <div class="progress percent75"><span>75%</span></div>
+                    <strong>React JS</strong>
+                    </li>   
+                    <li>
+                    <div class="progress percent50"><span>50%</span></div>
+                    <strong>Angular JS</strong>
+                    </li>   
+                </ul>
+            </div>
+
+        </div> <!-- end about-content -->
+
+        <div class="row about-content about-content--buttons">
+
+            <div class="col-six tab-full left">
+                <a href="pdf/Suvarna_CV.pdf" class="btn btn--primary full-width" download>Download My CV</a>
+            </div>
+            <div class="col-six tab-full right">
+                <a href="#contact" class="smoothscroll btn full-width">Hire Me Now</a>
+            </div>
+
+        </div> <!-- end about-content buttons -->
+
+        <div class="row about-content about-content--timeline">
+
+            <div class="col-full text-center">
+                <h3>My Work Experience.</h3>
+            </div>
+
+            <div class="col-six tab-full left">
+                <div class="timeline">
+
+                    <div class="timeline__block">
+                        <div class="timeline__bullet"></div>
+                        <div class="timeline__header">
+                            <p class="timeline__timeframe">Aug 2019 - Jan 2020</p>
+                            <h3>Coople UK, London</h3>
+                            <h5>Frontend Developer</h5>
+                        </div>
+                        <div class="timeline__desc">
+							<p>Worked on a small team closely with designers and backend developers to ensure features were built out accurately and on-time. My responsibilities included developing, testing and maintaining new features and designs added to the company's back-office structure.<br/><br/>
+							<i>Tech Stack</i> :
+							Angular 8 / angular-cli / rxjs / typescript / javascript /  css  / sass /  html</p>
+                        </div>
+                    </div> <!-- end timeline__block -->
+
+                    <div class="timeline__block">
+                        <div class="timeline__bullet"></div>
+                        <div class="timeline__header">
+                            <p class="timeline__timeframe">NOV 2016 - APR 2019</p>
+                            <h3>HElIOS - NISSAN OPTIMIZATION</h3>
+                            <h5>Senior Experience Technology (L2)</h5>
+                            <h5>Publicis.Sapient, London</h5>
+                        </div>
+                        <div class="timeline__desc">	
+                            <p>The objective of this project was to design and deliver a global portfolio of websites, elevating brand presence and consumer experience worldwide in an AEM based platform.<br/><br/>
+							<i>Tech Stack</i> :
+							backbone/ react / javascript /  css  / sass /  html</p>
+							</p>
+                        </div>
+					</div> <!-- end timeline__block -->
+					<div class="timeline__block">
+                        <div class="timeline__bullet"></div>
+                        <div class="timeline__header">
+                            <p class="timeline__timeframe">JUL 2016 - OCT 2019</p>
+                            <h3>TJX - E-COMMERCE</h3>
+                            <h5>Senior Experience Technology (L2)</h5>
+                            <h5>DigitasLbi, Newbury</h5>
+                        </div>
+                        <div class="timeline__desc">	
+                            <p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi incididunt.</p>
+                        </div>
+                    </div>
+
+                </div> <!-- end timeline -->
+            </div> <!-- end left -->
+
+            <div class="col-six tab-full right">
+                <div class="timeline">
+
+                    <div class="timeline__block">
+                        <div class="timeline__bullet"></div>
+                        <div class="timeline__header">
+                            <p class="timeline__timeframe">Jun 2014 - Jul 2016</p>
+                            <h3>IEA & DEXA - Integration with AEM</h3>
+                            <h5>Senior Experience Technology (L1)</h5>
+                            <h5>Publicis.Sapient, India</h5>
+                        </div>
+                        <div class="timeline__desc">
+							<p>IEA is a new approach to deliver content driven experiences; which also introduces a new architecture and delivery model for how the experience is built and integrated. DEXA is a frontend decoupled architecture.</p>
+                        </div>
+                    </div> <!-- end timeline__block -->
+
+                    <div class="timeline__block">
+                        <div class="timeline__bullet"></div>
+                        <div class="timeline__header">
+                            <p class="timeline__timeframe">Oct 2012 - May 2014</p>
+                            <h3>Razorfish Technologies, India</h3>
+                            <h5>Software Developer</h5>
+                        </div>
+                        <div class="timeline__desc">
+                            <p>Developed fully functional responsive prototypes based on Business Requirements using HTML5, CSS3, JavaScript, jQuery and angular JS.
+							Implemented plug-ins to extend application functionality and JavaScript module patterns using asynchronous script loading.
+							Implemented Page Optimisation techniques for web pages, Best Practices in Javascript and handled Cross Browser compatibility issues 
+							Worked on various environment such as groovy & grails, ruby on rails, hibernate, vTiger, Magento</p>
+                        </div>
 					</div>
+					<div class="timeline__block">
+                        <div class="timeline__bullet"></div>
+                        <div class="timeline__header">
+                            <p class="timeline__timeframe">MAY 2012 - SEP 2012</p>
+                            <h3>Cheese Corporate Care, India</h3>
+                            <h5>Software Developer</h5>
+                        </div>
+                        <div class="timeline__desc">
+                            <p>Developed user interface from UI designs (PSD) for cross-platform devices and website layout for the user experience using CSS3 and HTML5</p>
+                        </div>
+                    </div> <!-- end timeline__block -->
 
-				<!-- Contact -->
-					<section id="contact">
-						<div class="inner">
-							<section>
-								<form method="post" action="#">
-									<div class="fields">
-										<div class="field half">
-											<label for="name">Name</label>
-											<input type="text" name="name" id="name" />
-										</div>
-										<div class="field half">
-											<label for="email">Email</label>
-											<input type="text" name="email" id="email" />
-										</div>
-										<div class="field">
-											<label for="message">Message</label>
-											<textarea name="message" id="message" rows="6"></textarea>
-										</div>
-									</div>
-									<ul class="actions">
-										<li><input type="submit" value="Send Message" class="primary" /></li>
-										<li><input type="reset" value="Clear" /></li>
-									</ul>
-								</form>
-							</section>
-							<section class="split">
-								<section>
-									<div class="contact-method">
-										<span class="icon solid alt fa-envelope"></span>
-										<h3>Email</h3>
-										<a href="#">information@untitled.tld</a>
-									</div>
-								</section>
-								<section>
-									<div class="contact-method">
-										<span class="icon solid alt fa-phone"></span>
-										<h3>Phone</h3>
-										<span>(000) 000-0000 x12387</span>
-									</div>
-								</section>
-								<section>
-									<div class="contact-method">
-										<span class="icon solid alt fa-home"></span>
-										<h3>Address</h3>
-										<span>1234 Somewhere Road #5432<br />
-										Nashville, TN 00000<br />
-										United States of America</span>
-									</div>
-								</section>
-							</section>
-						</div>
-					</section>
+                </div> <!-- end timeline -->
+            </div> <!-- end right -->
 
-				<!-- Footer -->
-					<footer id="footer">
-						<div class="inner">
-							<ul class="icons">
-								<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-								<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-								<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-								<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-								<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-							</ul>
-							<ul class="copyright">
-								<li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
-							</ul>
-						</div>
-					</footer>
+        </div> <!-- end about-content timeline -->
 
-			</div>
+    </section> <!-- end about -->
+    
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+    <!-- works
+    ================================================== -->
+    <section id="works" class="s-works target-section">
 
-	</body>
+        <div class="row narrow section-intro has-bottom-sep">
+            <div class="col-full">
+                <h1>PORTFOLIO</h1>
+                <h3>Check Out My Latest Projects.</h3>
+            </div>
+        </div>
+
+        <div class="row masonry-wrap">
+            <div class="masonry">
+                <div class="masonry__brick">
+                    <div class="item-folio">
+                        <div class="item-folio__thumb">
+                            <a href="https://www.nissan.co.uk/vehicles/new-vehicles/micra/configurator.html" target="_blank" class="thumb-link" title="Nissan" data-size="1050x700">
+                                <img src="images/portfolio/nissan.jpg" alt="">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                Nissan Configurator
+                            </h3>
+                            <p class="item-folio__cat">
+                                Web Development
+                            </p>
+                        </div>
+                        <a href="https://www.nissan.co.uk/vehicles/new-vehicles/micra/configurator.html" class="item-folio__project-link" title="Project link">
+                            <i class="im im-link"></i>
+                        </a>
+                    </div> <!-- end item-folio -->
+                </div> <!-- end masonry__brick -->
+                <div class="masonry__brick">
+                    <div class="item-folio">
+                        <div class="item-folio__thumb">
+                            <a href="https://www.tkmaxx.com/uk/en/" class="thumb-link" title="Lighthouse" data-size="1050x700">
+                                <img src="images/portfolio/tkmax.jpg" alt="">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                T.k.maxx
+                            </h3>
+                            <p class="item-folio__cat">
+                                Web Development
+                            </p>
+                        </div>
+                        <a href="https://www.tkmaxx.com/uk/en/" class="item-folio__project-link" title="Project link">
+                            <i class="im im-link"></i>
+                        </a>
+                    </div> <!-- end item-folio -->
+				</div> <!-- end masonry__brick -->
+				<div class="masonry__brick">
+                    <div class="item-folio">
+                        <div class="item-folio__thumb">
+                            <a href="https://www.kia.com/" class="thumb-link" title="Lighthouse" data-size="1050x700">
+                                <img src="images/portfolio/kia.jpg" alt="">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                Kia Motors
+                            </h3>
+                            <p class="item-folio__cat">
+                                Web Development
+                            </p>
+                        </div>
+                        <a href="https://www.kia.com/" class="item-folio__project-link" title="Project link">
+                            <i class="im im-link"></i>
+                        </a>
+                    </div> <!-- end item-folio -->
+				</div> <!-- end masonry__brick -->
+				<div class="masonry__brick">
+                    <div class="item-folio">
+                        <div class="item-folio__thumb">
+                            <a href="https://www.savethechildren.org.uk/" class="thumb-link" data-size="1050x700">
+                                <img src="images/portfolio/stc.jpg"
+                                     srcset="images/portfolio/stc.jpg" alt="">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                Save The Children
+                            </h3>
+                        </div>
+                        <a href="https://www.savethechildren.org.uk/" class="item-folio__project-link" title="Project link">
+                            <i class="im im-link"></i>
+                        </a>
+                        <span class="item-folio__caption">
+                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                        </span>
+                    </div> <!-- end item-folio -->
+                </div> <!-- end masonry__brick -->
+            </div>
+        </div> <!-- end masonry -->
+
+    </section> <!-- end works -->
+    <section id="contact" class="s-contact target-section">
+
+        <div class="overlay"></div>
+
+        <div class="row narrow section-intro">
+            <div class="col-full">
+                <h3>Contact</h3>
+                <h1>Say Hello.</h1>
+                
+                <p class="lead">I am interested in freelance opportunities – especially ambitious or large projects. However, if you have other request or question, don’t hesitate to contact me using below form either.</p>
+            </div>
+        </div>
+
+        <div class="row contact__main">
+            <div class="col-eight tab-full contact__form">
+                <form name="contactForm" id="contactForm" method="post" action="https://formspree.io/mzbryrpo">
+                    <fieldset>
+    
+                    <div class="form-field">
+                        <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="" aria-required="true" class="full-width">
+                    </div>
+                    <div class="form-field">
+                        <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="" aria-required="true" class="full-width">
+                    </div>
+                    <div class="form-field">
+                        <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="" class="full-width">
+                    </div>
+                    <div class="form-field">
+                        <textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required="" aria-required="true" class="full-width"></textarea>
+                    </div>
+                    <div class="form-field">
+                        <button class="full-width btn--primary">Submit</button>
+                        <div class="submit-loader">
+                            <div class="text-loader">Sending...</div>
+                            <div class="s-loader">
+                                <div class="bounce1"></div>
+                                <div class="bounce2"></div>
+                                <div class="bounce3"></div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    </fieldset>
+                </form>
+
+                <!-- contact-warning -->
+                <div class="message-warning">
+                    Something went wrong. Please try again.
+                </div> 
+            
+                <!-- contact-success -->
+                <div class="message-success">
+                    Your message was sent, thank you!<br>
+                </div>
+                        
+            </div>
+            <div class="col-four tab-full contact__infos">
+                <h4 class="h06">Phone</h4>
+                <p>(+44) 7584639133
+                </p>
+
+                <h4 class="h06">Email</h4>
+                <p>suvarnamondal27@gmail.com
+                </p>
+
+                <h4 class="h06">Address</h4>
+                <p>
+                54 Barnfield Place<br>
+                London, E14 9YA
+                </p>
+            </div>
+
+        </div>
+
+    </section> <!-- end s-contact -->
+
+
+    <!-- footer
+    ================================================== -->
+    <footer>
+        <div class="row">
+            <div class="col-full">
+
+                <div class="footer-logo">
+                    <a class="footer-site-logo" href="#0"><img src="images/logo.png" alt="Homepage"></a>
+                </div>
+
+                <ul class="footer-social">
+                    <li><a href="https://www.facebook.com/sonacutie.suvarna">
+                        <i class="im im-facebook" aria-hidden="true"></i>
+                        <span>Facebook</span>
+                    </a></li>
+                    <li><a href="https://twitter.com/suvi277">
+                        <i class="im im-twitter" aria-hidden="true"></i>
+                        <span>Twitter</span>
+                    </a></li>
+                    <li><a href="https://www.instagram.com/unquietsuvi/">
+                        <i class="im im-instagram" aria-hidden="true"></i>
+                        <span>Instagram</span>
+                    </a></li>
+                    <li><a href="https://www.linkedin.com/in/suvarnamondal/">
+                        <i class="im im-linkedin" aria-hidden="true"></i>
+                        <span>Linkedin</span>
+                    </a></li>
+                </ul>
+                    
+            </div>
+        </div>
+
+    </footer> <!-- end footer -->
+
+    <div id="preloader">
+        <div id="loader"></div>
+    </div>
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
 </html>
