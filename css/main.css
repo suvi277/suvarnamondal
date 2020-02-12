@@ -3307,6 +3307,26 @@ footer {
     padding: 6.6rem 0 4.2rem;
     text-align: center;
     color: rgba(255, 255, 255, 0.2);
+    position: relative;
+}
+.back-to-top  {
+    display: block;
+}
+
+.back-to-top  i {
+    font-size: 3.5rem;
+    color: #ffffff;
+    top: -10px;
+    position: absolute;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+.back-to-top i:hover {
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5);
 }
 
 footer a, footer a:visited {
